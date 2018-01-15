@@ -19,7 +19,8 @@ const mapStateToProps = (state) => (
 class MyImagePicker extends React.Component {
   state = {
     image: null,
-    postText: 'add your post text here!',
+    postText: '',
+    placeholder: 'add your post text here!',
   };
 
   pickImage = async () => {
@@ -59,7 +60,7 @@ class MyImagePicker extends React.Component {
     this.setState(
       {
         image:null,
-        postText:'add your post text here!'
+        postText:' '
       }
     )
     console.log("after upload "+this.state.postText)
@@ -103,7 +104,7 @@ class MyImagePicker extends React.Component {
           pickerStatus==="newPhoto" &&
           <View style={styles.addTextRow}>
             <View style={styles.addTextRowInput}>
-              <Input placeholder={this.state.postText} onSubmitEditing={this.onAddTextChange}/>
+              <Input placeholder={this.state.placeholder} onSubmitEditing={this.onAddTextChange}/>
             </View>
           </View>
         }
