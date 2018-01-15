@@ -5,3 +5,5 @@ I use npm v.4.6.1 to manage packages (as v.5 cause errors with react-native), cr
 
 You can try this app with Expo on iOS on Android by this link: https://exp.host/@alexplaksa17/avacadotestplaksa
 
+If you have questions or ideas about this project feel free to contact me, I`ll add new features soon.
+
