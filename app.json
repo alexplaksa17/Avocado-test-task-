@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "AvacadoTestPlaksa",
+    "slug": "expo.io/@alexplaksa17/slug",
+    "privacy": "public",
+    "description": "test instagram-like app ",
+    "sdkVersion": "23.0.0"
+  }
+}
