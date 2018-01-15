@@ -104,7 +104,7 @@ class MyImagePicker extends React.Component {
           pickerStatus==="newPhoto" &&
           <View style={styles.addTextRow}>
             <View style={styles.addTextRowInput}>
-              <Input placeholder={this.state.placeholder} onSubmitEditing={this.onAddTextChange}/>
+              <Input placeholder={this.state.postText || this.state.placeholder} onSubmitEditing={this.onAddTextChange}/>
             </View>
           </View>
         }
